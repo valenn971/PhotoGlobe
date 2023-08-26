@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #4e8098;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    top: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8dbc5;
+    position: sticky;
+}
+.headerPack {
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    display: block;
+    align-self: center;
+    justify-items: center;
+    margin: 0;
+}
+.brand {
+    color: #554640;
+    justify-self: center;
+    font-size: 3.5rem;
+    text-decoration: none;
+}
+.logoPack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+nav {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+} 
+.navBtn span {
+    display: block;
+    width: 2rem;
+    height: 0.3rem;
+    background-color: black;
+    margin: 5px 0;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.navUl .navbar .navbarA {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #554640;
+}
+.main {
+    display: block;
+    background-color: #4e8098;
+}
+.bodyParagraph1 {
+    display: flex;
+    text-align: center;
+}
+.txtParagraph1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+#indexVideos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.videoIndex {
+    padding: 1rem;
+}
+.bodyParagraph2 {
+    display: flex;
+    text-align: center;
+}
+.txtParagraph2 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+@media (max-width: 1080px) {
+    #indexVideos {
+        padding: 3rem;
+    }
+    .videoIndex {
+        width: 300;
+        height: 100;
+    }
+    nav {
+        padding: 0;
+    }
+    .navUl .navbar .navbarA {
+        font-size: 3rem; 
+    }
+    li {
+        margin-left: 3rem;
+        margin-right: 3rem;  
+    }
+}
+@media (max-width: 952px) {
+    #indexVideos {
+        flex-direction: column;
+        padding: 3rem;
+    }
+    .navUl .navbar .navbarA {
+        font-size: 2.9rem; 
+    }
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #e8dbc5;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+#nav ul ul li {
+    float: none;
+    width: 10rem;
+    margin: 0;
+}
+#nav ul ul a {
+    line-height: 100%;
+    padding: 0;
+}
+#nav ul li:hover > ul {
+    display:block;
+}
+#nav ul li a:hover {
+    color: #4e8098;
+    transition: all .3s;
+    scale: 1.05;
+}
+.usTitle {
+    font-size: 3rem;
+    font-style: italic;
+    color: #e8dbc5;
+    text-decoration: underline;
+}
+.usSpan {
+    font-size: 2.5rem;
+}
+.usPageUs {
+    grid-area: us;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+}
+.usPageInicios {
+    grid-area: inicios;
+    margin-top: 0;
+    margin-left: 2rem;
+    padding-left: 3rem;
+}
+.usPageI {
+    grid-area: yo;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    padding-left: 3rem;
+}
+.asideUs {
+    grid-area: aside;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.usPage {
+    display: grid;
+    grid-template-areas: 
+    "us us us us"
+    "inicios inicios inicios aside"
+    "yo yo yo aside";
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
+    grid-template-columns: 0.5fr 1.2fr 1fr 1fr;
+}
+.planeTimelapse {
+    margin: 2rem;
+}
+.treviUs {
+    margin: 2rem;
+}
+.capriUs {
+    margin: 2rem;
+}
+.linkCities {
+    text-decoration: none;
+    color: #e8dbc5;
+    font-size: 3rem;
+}
+.mainCities {
+    background-color: #4e8098;
+}
+.citiesParagraph {
+    font-size: 3rem;
+    color: #e8dbc5;
+    text-align: center;
+    justify-content: center;
+}
+.container {
+    padding-top: 4rem;
+}
+.ulFooter {
+    align-content: center;
+    justify-content: center;
+    color: #554640;
+}
+.ulFooter:hover {
+    scale: 1.3 .4s;
+}
+.footIcons {
+    align-items: end;
+    justify-items: end;
+}
+#footer {
+    font-size: 2rem;
+    background-color: #e8dbc5;
+}
+.linkFooter {
+    text-decoration: none
+}
+aside {
+    flex: 1;
+    max-width: 30rem;
+    background-color: #4e8098;
+    color: #e8dbc5;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    width: 10rem;
+}
+input, textarea {
+    width: 30rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+}
+button {
+    background-color: #e8dbc5;
+    color: #554640;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.contactBody {
+    background-image: url(../img/london-eye.jpeg);
+    background-size: cover;
+}
+.titleContact {
+    font-size: 4rem;
+    color: #ffffff;
+}
+

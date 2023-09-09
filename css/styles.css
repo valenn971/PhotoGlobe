@@ -78,6 +78,7 @@ body {
 .main .bodyParagraph1 {
   display: flex;
   text-align: center;
+  padding: 2rem;
 }
 .main .bodyParagraph1 .txtParagraph1 {
   font-size: 3rem;

@@ -1,0 +1,47 @@
+.main {
+    .headFlagN {
+        background-image: url(../../img/norgeFlag.png);
+        width: 100%;
+        height: 15rem;
+        background-repeat: no-repeat; 
+        background-size: 100% 100%;
+        .NheadTitle {
+            font-size: 10rem;
+            color: black;
+        }
+    }
+    .norgeContent {
+        .norgeTheCity {
+            .NtheCityTitle {
+                color: #e8dbc5;
+                font-size: 5rem;
+            }
+            .NtheCitySpan {
+                font-size: 1.6rem;
+            }
+        }
+        .norgeFood {
+            .NfoodTitle {
+                color: #e8dbc5;
+                font-size: 5rem;
+            }
+            .NfoodSpan {
+                font-size: 1.6rem;
+            }
+        }
+        .norgeImages {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            .NImages {
+                width: 34rem;
+                height: 19rem;
+                padding-left: 1.2rem;
+                padding-right: 1.2rem;
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+        }
+    }
+}

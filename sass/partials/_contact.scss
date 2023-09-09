@@ -1,0 +1,49 @@
+.mainContact {
+    background-image: url(../../img/london-eye.jpeg);
+    background-size: cover;
+    .contactSection {
+        .titleContact {
+            font-size: 4rem;
+            color: #ffffff;
+        }
+        form {
+            label {
+                display: block;
+                margin-bottom: 0.5rem;
+                font-size: 2rem;
+                color: #ffffff;
+                width: 10rem;
+            }
+            input {
+                width: 30rem;
+                padding: 1rem;
+                margin-bottom: 1rem;
+                border: 0.1rem solid #ccc;
+                border-radius: 0.5rem;
+            }
+            textarea {
+                width: 30rem;
+                padding: 1rem;
+                margin-bottom: 1rem;
+                border: 0.1rem solid #ccc;
+                border-radius: 0.5rem;
+            }
+            button {
+                background-color: #e8dbc5;
+                color: #554640;
+                padding: 1rem 2rem;
+                border: none;
+                border-radius: 0.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+    .asideContact {
+        flex: 1;
+        max-width: 30rem;
+        background-color: #4e8098;
+        color: #e8dbc5;
+        padding: 2rem;
+        border: 0.5rem;
+    }
+}

@@ -1,0 +1,47 @@
+.main {
+    .headFlagP {
+        width: 100%;
+        background-image: url(../../img/frenchFlag.png);
+        height: 15rem;
+        background-size: cover;
+        .PheadTitle {
+            font-size: 10rem;
+            color: black;
+            text-align: center;
+        }
+    }
+    .parisContent {
+        .parisTheCity {
+            .PtheCityTitle {
+                color: #e8dbc5;
+                font-size: 5rem;
+            }
+            .PtheCitySpan {
+                font-size: 1.6rem;
+            }
+        }
+        .parisFood {
+            .PfoodTitle {
+                color: #e8dbc5;
+                font-size: 5rem;
+            }
+            .PfoodSpan {
+                font-size: 1.6rem;
+            }
+        }
+        .parisImages {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            .PImages {
+                width: 34rem;
+                height: 19rem;
+                padding-left: 1.2rem;
+                padding-right: 1.2rem;
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+        }
+    }
+}

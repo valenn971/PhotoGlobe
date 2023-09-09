@@ -1,0 +1,48 @@
+.main {
+    .headFlagLon {
+        background-image: url(../../img/ukFlag.png);
+        width: 100%;
+        height: 15rem;
+        background-repeat: no-repeat; 
+        background-size: 100% 100%;
+        .LheadTitle {
+            font-size: 10rem;
+            color: black;
+            text-align: center;
+        }
+    }
+    .londonContent {
+        .londonTheCity {
+            .LtheCityTitle {
+                color: #e8dbc5;
+                font-size: 5rem;
+            }
+            .LtheCitySpan {
+                font-size: 1.6rem;
+            }
+        }
+        .londonFood {
+            .LfoodTitle {
+                color: #e8dbc5;
+                font-size: 5rem;
+            }
+            .LfoodSpan {
+                font-size: 1.6rem;
+            }
+        }
+        .londonImages {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            .LImages {
+                width: 34rem;
+                height: 19rem;
+                padding-left: 1.2rem;
+                padding-right: 1.2rem;
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+        }
+    }
+}

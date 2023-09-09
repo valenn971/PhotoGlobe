@@ -1,17 +1,482 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @use "index";
- *   | ^^^^^^^^^^^^
- *   '
- *   sass/styles.scss 1:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @use \"index\";\a   \2502  ^^^^^^^^^^^^\a   \2575 \a   sass/styles.scss 1:1  root stylesheet";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  top: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8dbc5;
+  position: sticky;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.header li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.header .logoPack {
+  align-content: center;
+  justify-items: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+.header .logoPack .logo {
+  display: block;
+  align-self: center;
+  justify-content: center;
+  margin: 0;
+}
+.header .logoPack .brand {
+  color: #554640;
+  justify-self: center;
+  font-size: 3.5rem;
+}
+.header #navbarNav {
+  display: inline-block;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+.header #navbarNav .navUl .navbar a:hover {
+  color: #4e8098;
+  transition: all 0.3s;
+  scale: 1.05;
+}
+.header #navbarNav .navUl .navbarA {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #554640;
+}
+.header #navbarNav .navUl .navCities {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #e8dbc5;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.header #navbarNav .navUl .navCities .navCities1 {
+  float: none;
+  width: 10rem;
+  margin: 0;
+}
+
+.main {
+  display: block;
+  background-color: #4e8098;
+}
+.main .bodyParagraph1 {
+  display: flex;
+  text-align: center;
+}
+.main .bodyParagraph1 .txtParagraph1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.main #indexVideos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.main #indexVideos .videosIndex {
+  width: 50rem;
+  height: 18rem;
+  padding: 1rem;
+}
+.main .bodyParagraph2 {
+  display: flex;
+  text-align: center;
+}
+.main .bodyParagraph2 .txtParagraph2 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#footer {
+  background-color: #e8dbc5;
+  display: flex;
+}
+#footer .ulFooter {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  list-style: none;
+  justify-content: center;
+}
+#footer .ulFooter .footlink {
+  padding-left: 0rem;
+  padding-top: 0.4rem;
+  font-size: 2rem;
+}
+#footer .ulFooter .footlink .linkFooter {
+  text-decoration: none;
+  color: #554640;
+}
+#footer .footIcons {
+  list-style: none;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+#footer .footIcons .iconsFooter {
+  padding-top: 0.7rem;
+}
+
+.mainContact {
+  background-image: url(../../img/london-eye.jpeg);
+  background-size: cover;
+}
+.mainContact .contactSection .titleContact {
+  font-size: 4rem;
+  color: #ffffff;
+}
+.mainContact .contactSection form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #ffffff;
+  width: 10rem;
+}
+.mainContact .contactSection form input {
+  width: 30rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+}
+.mainContact .contactSection form textarea {
+  width: 30rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+}
+.mainContact .contactSection form button {
+  background-color: #e8dbc5;
+  color: #554640;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.mainContact .asideContact {
+  flex: 1;
+  max-width: 30rem;
+  background-color: #4e8098;
+  color: #e8dbc5;
+  padding: 2rem;
+  border: 0.5rem;
+}
+
+.mainCities {
+  background-color: #4e8098;
+}
+.mainCities .linkCities {
+  text-decoration: none;
+}
+.mainCities .linkCities .citiesIMG {
+  width: 20rem;
+  height: 13rem;
+}
+.mainCities .linkCities .linkCitiesBrand {
+  color: #ffffff;
+  font-size: 3rem;
+}
+.mainCities .citiesParagraph .txtParagraphCities {
+  font-size: 4rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.mainCities .blogIntro .blogIntroP {
+  font-size: 3.5rem;
+  color: #e8dbc5;
+  text-align: center;
+}
+.mainCities .blogParagraph .blogTxt {
+  font-size: 3.5rem;
+  color: #e8dbc5;
+  text-align: center;
+}
+
+.main .usPage .usPageUs .usTitle {
+  font-size: 4rem;
+  font-style: italic;
+  color: #e8dbc5;
+  padding: 1rem;
+}
+.main .usPage .usPageUs .usSpan {
+  font-size: 2.2rem;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.main .usPage .usPageInicios .usTitle {
+  font-size: 4rem;
+  font-style: italic;
+  color: #e8dbc5;
+  padding: 1rem;
+}
+.main .usPage .usPageInicios .usSpan {
+  font-size: 2.2rem;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.main .usPage .usPageI .usTitle {
+  font-size: 4rem;
+  font-style: italic;
+  color: #e8dbc5;
+  padding: 1rem;
+}
+.main .usPage .usPageI .usSpan {
+  font-size: 2.2rem;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.main .usPage .asideUs {
+  display: flex;
+  justify-content: center;
+}
+.main .usPage .asideUs .usMedia {
+  width: 50rem;
+  height: 18rem;
+  padding: 1rem;
+}
+.main .usPage .asideUs .usMediaF {
+  width: 30rem;
+  height: 18rem;
+  padding: 1rem;
+}
+
+.main .headFlag {
+  width: 100%;
+  background-image: url(../../img/germanyFlag.png);
+  height: 15rem;
+  background-size: contain;
+}
+.main .headFlag .BheadTitle {
+  font-size: 10rem;
+  color: #ffffff;
+  text-align: center;
+}
+.main .berlinContent .berlinTheCity .BtheCityTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .berlinContent .berlinTheCity .BtheCitySpan {
+  font-size: 1.6rem;
+}
+.main .berlinContent .berlinFood .BfoodTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .berlinContent .berlinFood .BfoodSpan {
+  font-size: 1.6rem;
+}
+.main .berlinContent .berlinImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.main .berlinContent .berlinImages .BImages {
+  width: 34rem;
+  height: 19rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.main .headFlagLon {
+  background-image: url(../../img/ukFlag.png);
+  width: 100%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.main .headFlagLon .LheadTitle {
+  font-size: 10rem;
+  color: black;
+  text-align: center;
+}
+.main .londonContent .londonTheCity .LtheCityTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .londonContent .londonTheCity .LtheCitySpan {
+  font-size: 1.6rem;
+}
+.main .londonContent .londonFood .LfoodTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .londonContent .londonFood .LfoodSpan {
+  font-size: 1.6rem;
+}
+.main .londonContent .londonImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.main .londonContent .londonImages .LImages {
+  width: 34rem;
+  height: 19rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.main .headFlagR {
+  width: 100%;
+  background-image: url(../../img/italianFlag.png);
+  height: 15rem;
+  background-size: cover;
+}
+.main .headFlagR .RheadTitle {
+  font-size: 10rem;
+  color: black;
+  text-align: center;
+}
+.main .romeContent .romeTheCity .RtheCityTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .romeContent .romeTheCity .RtheCitySpan {
+  font-size: 1.6rem;
+}
+.main .romeContent .romeFood .RfoodTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .romeContent .romeFood .RfoodSpan {
+  font-size: 1.6rem;
+}
+.main .romeContent .romeImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.main .romeContent .romeImages .RImages {
+  width: 34rem;
+  height: 19rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.main .headFlagP {
+  width: 100%;
+  background-image: url(../../img/frenchFlag.png);
+  height: 15rem;
+  background-size: cover;
+}
+.main .headFlagP .PheadTitle {
+  font-size: 10rem;
+  color: black;
+  text-align: center;
+}
+.main .parisContent .parisTheCity .PtheCityTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .parisContent .parisTheCity .PtheCitySpan {
+  font-size: 1.6rem;
+}
+.main .parisContent .parisFood .PfoodTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .parisContent .parisFood .PfoodSpan {
+  font-size: 1.6rem;
+}
+.main .parisContent .parisImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.main .parisContent .parisImages .PImages {
+  width: 34rem;
+  height: 19rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.main .headFlagN {
+  background-image: url(../../img/norgeFlag.png);
+  width: 100%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.main .headFlagN .NheadTitle {
+  font-size: 10rem;
+  color: black;
+}
+.main .norgeContent .norgeTheCity .NtheCityTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .norgeContent .norgeTheCity .NtheCitySpan {
+  font-size: 1.6rem;
+}
+.main .norgeContent .norgeFood .NfoodTitle {
+  color: #e8dbc5;
+  font-size: 5rem;
+}
+.main .norgeContent .norgeFood .NfoodSpan {
+  font-size: 1.6rem;
+}
+.main .norgeContent .norgeImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.main .norgeContent .norgeImages .NImages {
+  width: 34rem;
+  height: 19rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -32,6 +32,10 @@ body {
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
 }
+.header .navbar-toggler {
+  color: #554640;
+  background-color: #4e8098;
+}
 .header .logoPack {
   align-content: center;
   justify-items: center;

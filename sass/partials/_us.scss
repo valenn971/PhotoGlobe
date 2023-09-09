@@ -58,3 +58,9 @@
         }
     }
 }
+@media (max-width: 952px) {
+    .asideUs {
+        flex-direction: column;
+        align-items: center;
+    }
+}

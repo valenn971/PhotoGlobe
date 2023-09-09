@@ -50,8 +50,6 @@ body {
                 }
             }
         #navbarNav {
-            display: inline-block;
-            justify-content: center;
             width: 100%;
             padding: 0.5rem;
             .navUl {
@@ -67,21 +65,6 @@ body {
                     font-size: 2.5rem;
                     color: #554640;
                 }   
-                .navCities {
-                    display: none;
-                    position: absolute;
-                    top: 100%;
-                    left: 0;
-                    background: #e8dbc5;
-                    padding: 0;
-                    justify-content: center;
-                    align-items: center;
-                    .navCities1 {
-                        float: none;
-                        width: 10rem;
-                        margin: 0;
-                    }
-                }
             }
         }   
 }
@@ -93,7 +76,7 @@ body {
         text-align: center;
         .txtParagraph1 {
             font-size: 3rem;
-            color: #ffffff;
+            color: #e8dbc5;
             margin-top: 3rem;
             margin-bottom: 3rem;
         }
@@ -114,7 +97,7 @@ body {
         text-align: center;
         .txtParagraph2 {
             font-size: 3rem;
-            color: #ffffff;
+            color: #e8dbc5;
             margin-top: 3rem;
             margin-bottom: 3rem;
         }
@@ -148,4 +131,9 @@ body {
         }
     }
 }
-
+@media (max-width: 952px) {
+    #indexVideos {
+        flex-direction: column;
+        align-items: center;
+    }
+}

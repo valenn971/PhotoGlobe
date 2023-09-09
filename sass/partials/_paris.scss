@@ -45,3 +45,9 @@
         }
     }
 }
+@media (max-width: 952px) {
+    .parisImages {
+        flex-direction: column;
+        align-items: center;
+    }
+}

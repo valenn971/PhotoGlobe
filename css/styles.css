@@ -54,8 +54,6 @@ body {
   font-size: 3.5rem;
 }
 .header #navbarNav {
-  display: inline-block;
-  justify-content: center;
   width: 100%;
   padding: 0.5rem;
 }
@@ -69,21 +67,6 @@ body {
   font-size: 2.5rem;
   color: #554640;
 }
-.header #navbarNav .navUl .navCities {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #e8dbc5;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
-}
-.header #navbarNav .navUl .navCities .navCities1 {
-  float: none;
-  width: 10rem;
-  margin: 0;
-}
 
 .main {
   display: block;
@@ -95,7 +78,7 @@ body {
 }
 .main .bodyParagraph1 .txtParagraph1 {
   font-size: 3rem;
-  color: #ffffff;
+  color: #e8dbc5;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -116,7 +99,7 @@ body {
 }
 .main .bodyParagraph2 .txtParagraph2 {
   font-size: 3rem;
-  color: #ffffff;
+  color: #e8dbc5;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -150,6 +133,12 @@ body {
   padding-top: 0.7rem;
 }
 
+@media (max-width: 952px) {
+  #indexVideos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .mainContact {
   background-image: url(../../img/london-eye.jpeg);
   background-size: cover;
@@ -207,12 +196,12 @@ body {
   height: 13rem;
 }
 .mainCities .linkCities .linkCitiesBrand {
-  color: #ffffff;
+  color: #e8dbc5;
   font-size: 3rem;
 }
 .mainCities .citiesParagraph .txtParagraphCities {
   font-size: 4rem;
-  color: #ffffff;
+  color: #e8dbc5;
   text-align: center;
 }
 
@@ -278,6 +267,12 @@ body {
   padding: 1rem;
 }
 
+@media (max-width: 952px) {
+  .asideUs {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main .headFlag {
   width: 100%;
   background-image: url(../../img/germanyFlag.png);
@@ -318,6 +313,12 @@ body {
   margin-top: 3rem;
 }
 
+@media (max-width: 952px) {
+  .berlinImages {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main .headFlagLon {
   background-image: url(../../img/ukFlag.png);
   width: 100%;
@@ -359,6 +360,12 @@ body {
   margin-top: 3rem;
 }
 
+@media (max-width: 952px) {
+  .londonImages {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main .headFlagR {
   width: 100%;
   background-image: url(../../img/italianFlag.png);
@@ -399,6 +406,12 @@ body {
   margin-top: 3rem;
 }
 
+@media (max-width: 952px) {
+  .romeImages {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main .headFlagP {
   width: 100%;
   background-image: url(../../img/frenchFlag.png);
@@ -439,6 +452,12 @@ body {
   margin-top: 3rem;
 }
 
+@media (max-width: 952px) {
+  .parisImages {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main .headFlagN {
   background-image: url(../../img/norgeFlag.png);
   width: 100%;
@@ -477,6 +496,13 @@ body {
   padding-right: 1.2rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
+}
+
+@media (max-width: 952px) {
+  .norgeImages {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

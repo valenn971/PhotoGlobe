@@ -14,9 +14,6 @@ body {
 .header {
     top: 0;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
     background-color: #e8dbc5;
     position: sticky;
         ul {
@@ -42,6 +39,8 @@ body {
                 align-self: center;
                 justify-content: center;
                 margin: 0;
+                width: 5rem;
+                height: 5rem;
             }
             .brand {
                     color: #554640;

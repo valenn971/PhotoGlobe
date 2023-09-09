@@ -12,21 +12,25 @@
     }
     .romeContent {
         .romeTheCity {
+            text-align: justify;
+            padding: 3rem;
             .RtheCityTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .RtheCitySpan {
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .romeFood {
+            text-align: justify;
+            padding: 3rem;
             .RfoodTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .RfoodSpan {
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .romeImages {

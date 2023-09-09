@@ -215,40 +215,46 @@ body {
   text-align: center;
 }
 
+.main .usPage .usPageUs {
+  text-align: justify;
+  padding: 3rem;
+}
 .main .usPage .usPageUs .usTitle {
   font-size: 4rem;
   font-style: italic;
   color: #e8dbc5;
-  padding: 1rem;
 }
 .main .usPage .usPageUs .usSpan {
   font-size: 2.2rem;
   color: #fff;
-  padding: 1rem;
   text-align: center;
+}
+.main .usPage .usPageInicios {
+  text-align: justify;
+  padding: 3rem;
 }
 .main .usPage .usPageInicios .usTitle {
   font-size: 4rem;
   font-style: italic;
   color: #e8dbc5;
-  padding: 1rem;
 }
 .main .usPage .usPageInicios .usSpan {
   font-size: 2.2rem;
   color: #fff;
-  padding: 1rem;
   text-align: center;
+}
+.main .usPage .usPageI {
+  text-align: justify;
+  padding: 3rem;
 }
 .main .usPage .usPageI .usTitle {
   font-size: 4rem;
   font-style: italic;
   color: #e8dbc5;
-  padding: 1rem;
 }
 .main .usPage .usPageI .usSpan {
   font-size: 2.2rem;
   color: #fff;
-  padding: 1rem;
   text-align: center;
 }
 .main .usPage .asideUs {
@@ -283,19 +289,27 @@ body {
   color: #ffffff;
   text-align: center;
 }
+.main .berlinContent .berlinTheCity {
+  text-align: justify;
+  padding: 3rem;
+}
 .main .berlinContent .berlinTheCity .BtheCityTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .berlinContent .berlinTheCity .BtheCitySpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
+}
+.main .berlinContent .berlinFood {
+  text-align: justify;
+  padding: 3rem;
 }
 .main .berlinContent .berlinFood .BfoodTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .berlinContent .berlinFood .BfoodSpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .main .berlinContent .berlinImages {
   display: flex;
@@ -330,19 +344,27 @@ body {
   color: black;
   text-align: center;
 }
+.main .londonContent .londonTheCity {
+  text-align: justify;
+  padding: 3rem;
+}
 .main .londonContent .londonTheCity .LtheCityTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .londonContent .londonTheCity .LtheCitySpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
+}
+.main .londonContent .londonFood {
+  text-align: justify;
+  padding: 3rem;
 }
 .main .londonContent .londonFood .LfoodTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .londonContent .londonFood .LfoodSpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .main .londonContent .londonImages {
   display: flex;
@@ -376,19 +398,27 @@ body {
   color: black;
   text-align: center;
 }
+.main .romeContent .romeTheCity {
+  text-align: justify;
+  padding: 3rem;
+}
 .main .romeContent .romeTheCity .RtheCityTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .romeContent .romeTheCity .RtheCitySpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
+}
+.main .romeContent .romeFood {
+  text-align: justify;
+  padding: 3rem;
 }
 .main .romeContent .romeFood .RfoodTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .romeContent .romeFood .RfoodSpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .main .romeContent .romeImages {
   display: flex;
@@ -422,19 +452,27 @@ body {
   color: black;
   text-align: center;
 }
+.main .parisContent .parisTheCity {
+  text-align: justify;
+  padding: 3rem;
+}
 .main .parisContent .parisTheCity .PtheCityTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .parisContent .parisTheCity .PtheCitySpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
+}
+.main .parisContent .parisFood {
+  text-align: justify;
+  padding: 3rem;
 }
 .main .parisContent .parisFood .PfoodTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .parisContent .parisFood .PfoodSpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .main .parisContent .parisImages {
   display: flex;
@@ -468,19 +506,27 @@ body {
   font-size: 10rem;
   color: black;
 }
+.main .norgeContent .norgeTheCity {
+  text-align: justify;
+  padding: 3rem;
+}
 .main .norgeContent .norgeTheCity .NtheCityTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .norgeContent .norgeTheCity .NtheCitySpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
+}
+.main .norgeContent .norgeFood {
+  text-align: justify;
+  padding: 3rem;
 }
 .main .norgeContent .norgeFood .NfoodTitle {
   color: #e8dbc5;
   font-size: 5rem;
 }
 .main .norgeContent .norgeFood .NfoodSpan {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .main .norgeContent .norgeImages {
   display: flex;

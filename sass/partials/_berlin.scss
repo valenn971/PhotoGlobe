@@ -12,21 +12,25 @@
     }
     .berlinContent {
         .berlinTheCity {
+            text-align: justify;
+            padding: 3rem;
             .BtheCityTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .BtheCitySpan {
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .berlinFood {
+            text-align: justify;
+            padding: 3rem;
             .BfoodTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .BfoodSpan{
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .berlinImages {

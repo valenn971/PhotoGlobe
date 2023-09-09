@@ -12,21 +12,25 @@
     }
     .parisContent {
         .parisTheCity {
+            text-align: justify;
+            padding: 3rem;
             .PtheCityTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .PtheCitySpan {
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .parisFood {
+            text-align: justify;
+            padding: 3rem;
             .PfoodTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .PfoodSpan {
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .parisImages {

@@ -13,21 +13,25 @@
     }
     .londonContent {
         .londonTheCity {
+            text-align: justify;
+            padding: 3rem;
             .LtheCityTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .LtheCitySpan {
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .londonFood {
+            text-align: justify;
+            padding: 3rem;
             .LfoodTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .LfoodSpan {
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .londonImages {

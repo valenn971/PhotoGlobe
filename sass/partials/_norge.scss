@@ -12,21 +12,25 @@
     }
     .norgeContent {
         .norgeTheCity {
+            text-align: justify;
+            padding: 3rem;
             .NtheCityTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .NtheCitySpan {
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .norgeFood {
+            text-align: justify;
+            padding: 3rem;
             .NfoodTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
             }
             .NfoodSpan {
-                font-size: 1.6rem;
+                font-size: 2rem;
             }
         }
         .norgeImages {

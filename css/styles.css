@@ -169,20 +169,24 @@ body {
   border: 0.1rem solid #ccc;
   border-radius: 0.5rem;
 }
-.mainContact .contactSection form textarea {
-  width: 30rem;
-  padding: 1rem;
+.mainContact .contactSection form .txtandbutton {
+  display: flex;
+  align-items: flex-end;
   margin-bottom: 1rem;
+}
+.mainContact .contactSection form .txtandbutton textarea {
+  width: 30rem;
   border: 0.1rem solid #ccc;
   border-radius: 0.5rem;
 }
-.mainContact .contactSection form button {
+.mainContact .contactSection form .txtandbutton button {
   background-color: #e8dbc5;
   color: #554640;
   padding: 1rem 2rem;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+  height: 3.5rem;
 }
 .mainContact .asideContact {
   flex: 1;

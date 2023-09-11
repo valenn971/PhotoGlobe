@@ -20,6 +20,9 @@ body {
   background-color: #e8dbc5;
   position: sticky;
 }
+.header #nav {
+  width: 100%;
+}
 .header ul {
   list-style: none;
   display: flex;

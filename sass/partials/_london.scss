@@ -56,3 +56,13 @@
         align-items: center;
     }
 }
+@media (max-width: 798px) {
+    .main {
+        .headFlagLon {
+            .LheadTitle {
+                font-size: 8rem;
+                text-align: center;
+            }
+        }
+    }
+}

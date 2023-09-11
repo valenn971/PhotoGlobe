@@ -80,7 +80,7 @@ body {
 }
 .main .bodyParagraph1 {
   display: flex;
-  text-align: center;
+  text-align: justify;
   padding: 2rem;
 }
 .main .bodyParagraph1 .txtParagraph1 {
@@ -102,7 +102,7 @@ body {
 }
 .main .bodyParagraph2 {
   display: flex;
-  text-align: center;
+  text-align: justify;
   padding: 2rem;
 }
 .main .bodyParagraph2 .txtParagraph2 {
@@ -400,6 +400,12 @@ body {
   .londonImages {
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 798px) {
+  .main .headFlagLon .LheadTitle {
+    font-size: 8rem;
+    text-align: center;
   }
 }
 .main .headFlagR {

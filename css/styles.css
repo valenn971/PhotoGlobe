@@ -96,9 +96,9 @@ body {
   padding: 0;
 }
 .main #indexVideos .videosIndex {
-  width: 50rem;
-  height: 18rem;
-  padding: 1rem;
+  width: 55rem;
+  height: 23rem;
+  padding: 2rem;
 }
 .main .bodyParagraph2 {
   display: flex;
@@ -190,7 +190,15 @@ body {
   background-color: #4e8098;
   color: #e8dbc5;
   padding: 2rem;
-  border: 0.5rem;
+}
+.mainContact .contactPageSpeech {
+  background-color: #4e8098;
+  padding: 2rem;
+}
+.mainContact .contactPageSpeech .speechContact {
+  font-size: 3rem;
+  color: #e8dbc5;
+  text-align: justify;
 }
 
 .mainCities {
@@ -219,7 +227,7 @@ body {
 .mainCities .blogIntro .blogIntroP {
   font-size: 3.5rem;
   color: #e8dbc5;
-  text-align: center;
+  text-align: justify;
 }
 .mainCities .blogParagraph {
   padding: 2rem;
@@ -227,7 +235,7 @@ body {
 .mainCities .blogParagraph .blogTxt {
   font-size: 3.5rem;
   color: #e8dbc5;
-  text-align: center;
+  text-align: justify;
 }
 
 .main .usPage .usPageUs {

@@ -24,6 +24,7 @@
         }
         .blogImages {
             display: flex;
+            align-items: center;
             .londonBlogIMG {
                 width: 50rem;
                 height: 28rem;
@@ -36,5 +37,9 @@
     .blogImages {
         flex-direction: column;
         align-items: center;
+        .londonBlogIMG {
+            width: 40rem;
+            height: 22rem;
+        }
     }
 }

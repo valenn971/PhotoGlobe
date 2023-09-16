@@ -606,6 +606,7 @@ body {
 }
 .main .BlogArticle .blogImages {
   display: flex;
+  align-items: center;
 }
 .main .BlogArticle .blogImages .londonBlogIMG {
   width: 50rem;
@@ -617,6 +618,10 @@ body {
   .blogImages {
     flex-direction: column;
     align-items: center;
+  }
+  .blogImages .londonBlogIMG {
+    width: 40rem;
+    height: 22rem;
   }
 }
 .main .blogArticle .blogImages .osloBlogIMG {

@@ -16,6 +16,7 @@
             .blogEntranceTitle {
                 font-size: 3.4rem;
                 color: #e8dbc5;
+                margin-top: 3.5rem;
             }
             .blogEntrance {
                 font-size: 2rem;
@@ -24,10 +25,12 @@
         }
         .blogImages {
             display: flex;
+            align-items: center;
+            justify-content: center;
             .parisBlogIMG {
-                width: 50rem;
-                height: 28rem;
-                padding: 3rem;
+                width: 35rem;
+                height: 18rem;
+                padding: 1rem;
             }
         }
     }

@@ -16,6 +16,7 @@
             .blogEntranceTitle {
                 font-size: 3.4rem;
                 color: #e8dbc5;
+                margin-top: 3rem;
             }
             .blogEntrance {
                 font-size: 2rem;
@@ -28,9 +29,9 @@
             justify-content: center;
             padding: 0;
             .londonBlogIMG {
-                width: 50rem;
-                height: 28rem;
-                padding: 3rem;
+                width: 30rem;
+                height: 18rem;
+                padding: 1rem;
             }
         }
     }
@@ -39,9 +40,5 @@
     .blogImages {
         flex-direction: column;
         align-items: center;
-        .londonBlogIMG {
-            width: 25rem;
-            height: 12rem;
-        }
     }
 }

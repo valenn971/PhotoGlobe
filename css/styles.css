@@ -77,6 +77,7 @@ body {
 .main {
   display: block;
   background-color: #4e8098;
+  min-height: 100rem;
 }
 .main .bodyParagraph1 {
   display: flex;
@@ -96,9 +97,9 @@ body {
   padding: 0;
 }
 .main #indexVideos .videosIndex {
-  width: 55rem;
-  height: 23rem;
-  padding: 2rem;
+  width: 35rem;
+  height: 22rem;
+  padding: 3rem;
 }
 .main .bodyParagraph2 {
   display: flex;
@@ -115,6 +116,7 @@ body {
 #footer {
   background-color: #e8dbc5;
   display: flex;
+  align-self: flex-end;
 }
 #footer .ulFooter {
   display: flex;
@@ -250,6 +252,7 @@ body {
   font-size: 4rem;
   font-style: italic;
   color: #e8dbc5;
+  text-align: center;
 }
 .main .usPage .usPageUs .usSpan {
   font-size: 2.2rem;
@@ -264,6 +267,7 @@ body {
   font-size: 4rem;
   font-style: italic;
   color: #e8dbc5;
+  text-align: center;
 }
 .main .usPage .usPageInicios .usSpan {
   font-size: 2.2rem;
@@ -278,6 +282,7 @@ body {
   font-size: 4rem;
   font-style: italic;
   color: #e8dbc5;
+  text-align: center;
 }
 .main .usPage .usPageI .usSpan {
   font-size: 2.2rem;
@@ -289,7 +294,7 @@ body {
   justify-content: center;
 }
 .main .usPage .asideUs .usMedia {
-  width: 50rem;
+  width: 30rem;
   height: 18rem;
   padding: 1rem;
 }
@@ -317,7 +322,7 @@ body {
   text-align: center;
 }
 .main .berlinContent .berlinTheCity {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .berlinContent .berlinTheCity .BtheCityTitle {
@@ -328,7 +333,7 @@ body {
   font-size: 2rem;
 }
 .main .berlinContent .berlinFood {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .berlinContent .berlinFood .BfoodTitle {
@@ -372,7 +377,7 @@ body {
   text-align: center;
 }
 .main .londonContent .londonTheCity {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .londonContent .londonTheCity .LtheCityTitle {
@@ -383,7 +388,7 @@ body {
   font-size: 2rem;
 }
 .main .londonContent .londonFood {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .londonContent .londonFood .LfoodTitle {
@@ -432,7 +437,7 @@ body {
   text-align: center;
 }
 .main .romeContent .romeTheCity {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .romeContent .romeTheCity .RtheCityTitle {
@@ -443,7 +448,7 @@ body {
   font-size: 2rem;
 }
 .main .romeContent .romeFood {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .romeContent .romeFood .RfoodTitle {
@@ -486,7 +491,7 @@ body {
   text-align: center;
 }
 .main .parisContent .parisTheCity {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .parisContent .parisTheCity .PtheCityTitle {
@@ -497,7 +502,7 @@ body {
   font-size: 2rem;
 }
 .main .parisContent .parisFood {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .parisContent .parisFood .PfoodTitle {
@@ -540,7 +545,7 @@ body {
   color: black;
 }
 .main .norgeContent .norgeTheCity {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .norgeContent .norgeTheCity .NtheCityTitle {
@@ -551,7 +556,7 @@ body {
   font-size: 2rem;
 }
 .main .norgeContent .norgeFood {
-  text-align: justify;
+  text-align: center;
   padding: 3rem;
 }
 .main .norgeContent .norgeFood .NfoodTitle {
@@ -599,6 +604,7 @@ body {
 .main .BlogArticle .BlogContent .blogEntranceTitle {
   font-size: 3.4rem;
   color: #e8dbc5;
+  margin-top: 3rem;
 }
 .main .BlogArticle .BlogContent .blogEntrance {
   font-size: 2rem;
@@ -611,9 +617,9 @@ body {
   padding: 0;
 }
 .main .BlogArticle .blogImages .londonBlogIMG {
-  width: 50rem;
-  height: 28rem;
-  padding: 3rem;
+  width: 30rem;
+  height: 18rem;
+  padding: 1rem;
 }
 
 @media (max-width: 952px) {
@@ -621,15 +627,15 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .blogImages .londonBlogIMG {
-    width: 25rem;
-    height: 12rem;
-  }
+}
+.main .blogArticle .blogImages {
+  align-items: center;
+  justify-content: center;
 }
 .main .blogArticle .blogImages .osloBlogIMG {
-  width: 50rem;
-  height: 28rem;
-  padding: 3rem;
+  width: 30rem;
+  height: 18rem;
+  padding: 1rem;
 }
 
 .main .blogArticle .blogContent {
@@ -649,6 +655,7 @@ body {
 .main .blogArticle .blogContent .blogEntranceTitle {
   font-size: 3.4rem;
   color: #e8dbc5;
+  margin-top: 3.5rem;
 }
 .main .blogArticle .blogContent .blogEntrance {
   font-size: 2rem;
@@ -656,11 +663,13 @@ body {
 }
 .main .blogArticle .blogImages {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main .blogArticle .blogImages .parisBlogIMG {
-  width: 50rem;
-  height: 28rem;
-  padding: 3rem;
+  width: 35rem;
+  height: 18rem;
+  padding: 1rem;
 }
 
 @media (max-width: 952px) {

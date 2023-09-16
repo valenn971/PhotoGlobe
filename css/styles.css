@@ -607,6 +607,8 @@ body {
 .main .BlogArticle .blogImages {
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 .main .BlogArticle .blogImages .londonBlogIMG {
   width: 50rem;

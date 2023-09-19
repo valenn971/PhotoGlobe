@@ -1,3 +1,9 @@
+@use 'variables';
+@mixin dCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main {
     .headFlagR {
         width: 100%;
@@ -13,9 +19,9 @@
     .romeContent {
         .romeTheCity {
             text-align: center;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .RtheCityTitle {
-                color: #e8dbc5;
+                color: variables.$bg2;
                 font-size: 5rem;
             }
             .RtheCitySpan {
@@ -26,7 +32,7 @@
             text-align: center;
             padding: 3rem;
             .RfoodTitle {
-                color: #e8dbc5;
+                color: variables.$bg2;
                 font-size: 5rem;
             }
             .RfoodSpan {
@@ -34,17 +40,15 @@
             }
         }
         .romeImages {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include dCenter;
             padding: 0;
             .RImages {
                 width: 34rem;
                 height: 19rem;
                 padding-left: 1.2rem;
                 padding-right: 1.2rem;
-                margin-bottom: 3rem;
-                margin-top: 3rem;
+                margin-bottom: variables.$sizeL;
+                margin-top: variables.$sizeL;
             }
         }
     }

@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
             <div class="container-fluid">
                 <a href="../index.html" class="logoPack"> 
-                    <img src="../img/photoglobe-logo2.png" alt="photoglobe-logo2" class="logo" width="50" height="50">
+                    <img src="../img/photoglobe-logo2.png" alt="logo de la marca PhotoGlobe" class="logo">
                     <h1 class="brand"><strong>PhotoGlobe</strong></h1>
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,27 +35,22 @@
         </nav>  
     </header>
     <main class="mainContact">
-        <section class="contactSection">
-            <span class="titleContact">Contacto</span>
-            <form>
-                <label for="nombre">Name:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                <label for="consulta">Message:</label>
-                <div class="txtandbutton">
-                    <textarea id="consulta" name="consulta" rows="4" required></textarea>
-                <button type="submit">Send</button>
-                </div>
-            </form>
-        </section>
-        <aside class="asideContact">
+        <form>
+            <label for="floatingName">Name</label>
+            <input type="name" class="form-control" id="floatingName" placeholder="name">
+            <label for="floatingInput">Email address</label>
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingTextarea">Comments</label>
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="infoContact">
             <h2>Contact Information</h2>
             <p>¡We are here to help you!</p>
             <p>Phone: 123-456-7890</p>
             <p>Email: valen.perez2901@gmail.com</p>
             <p>Direction: Av. 44 1234</p>
-        </aside>
+        </div>
         <div class="contactPageSpeech">
             <p class="speechContact">Hey, on this page you can contact us with any questions you have about planning a guide for your trip, we have personalized advice and activity planning, we also offer specific advice on the most essential points of interest when visiting a city, and your consultation is without obligation.
 
@@ -69,8 +64,8 @@
             <li class="footlink"><a href="./us.html" class="linkFooter">us</a></li>
         </ul>
         <ul class="footIcons">
-            <li class="iconsFooter"><a href="https://www.instagram.com/photoglobear" target="_blank"><img class="footIcons" src="https://eltallerdehector.com/wp-content/uploads/2022/06/cd939-logo-instagram-png.png" alt="instagram" height="40" width="40"></a></li>
-            <li class="iconsFooter"><a href="https://www.twitter.com/Valenn971" target="_blank"><img src="../img/twLogo.png" alt="twitter" height="40" width="40"></a></li>
+            <li class="iconsFooter"><a href="https://www.instagram.com/photoglobear" target="_blank"><img src="https://eltallerdehector.com/wp-content/uploads/2022/06/cd939-logo-instagram-png.png" alt="logo de instagram del footer" class="footLogo"></a></li>
+            <li class="iconsFooter"><a href="https://www.twitter.com/Valenn971" target="_blank"><img src="../img/twLogo.png" alt="logo de twitter del footer" class="footLogo"></a></li>
         </ul>
     </footer>
 </body>

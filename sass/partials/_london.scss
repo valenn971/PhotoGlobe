@@ -1,3 +1,9 @@
+@use 'variables';
+@mixin dCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main {
     .headFlagLon {
         background-image: url(https://www.countryflags.com/wp-content/uploads/england-flag-jpg-xl.jpg);
@@ -14,9 +20,9 @@
     .londonContent {
         .londonTheCity {
             text-align: center;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .LtheCityTitle {
-                color: #e8dbc5;
+                color: variables.$bg2;
                 font-size: 5rem;
             }
             .LtheCitySpan {
@@ -25,7 +31,7 @@
         }
         .londonFood {
             text-align: center;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .LfoodTitle {
                 color: #e8dbc5;
                 font-size: 5rem;
@@ -35,17 +41,15 @@
             }
         }
         .londonImages {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include dCenter;
             padding: 0;
             .LImages {
                 width: 34rem;
                 height: 19rem;
                 padding-left: 1.2rem;
                 padding-right: 1.2rem;
-                margin-bottom: 3rem;
-                margin-top: 3rem;
+                margin-bottom: variables.$sizeL;
+                margin-top: variables.$sizeL;
             }
         }
     }

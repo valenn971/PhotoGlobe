@@ -1,60 +1,51 @@
+@use 'variables';
 .mainContact {
+    display: flex;
+    flex-direction: column;
     background-image: url(https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-size: cover;
-    .contactSection {
-        .titleContact {
-            font-size: 4rem;
-            color: #ffffff;
+    min-height: 100rem;
+    justify-content: center;
+    align-items: center;
+    form {
+        max-width: 68rem;
+        min-width: 35rem;
+        background-color: variables.$bg1;
+        border-radius: variables.$sizeL;
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        label {
+            font-size: 2.4rem;
+            color: variables.$white;
         }
-        form {
-            label {
-                display: block;
-                margin-bottom: 0.5rem;
-                font-size: 2rem;
-                color: #ffffff;
-                width: 10rem;
-            }
-            input {
-                width: 30rem;
-                padding: 1rem;
-                margin-bottom: 1rem;
-                border: 0.1rem solid #ccc;
-                border-radius: 0.5rem;
-            }
-            .txtandbutton {
-                display: flex;
-                align-items: flex-end;
-                margin-bottom: 1rem;
-                textarea {
-                    width: 30rem;
-                    border: 0.1rem solid #ccc;
-                    border-radius: 0.5rem;
-                }
-                button {
-                    background-color: #e8dbc5;
-                    color: #554640;
-                    padding: 1rem 2rem;
-                    border: none;
-                    border-radius: 0.5rem;
-                    cursor: pointer;
-                    height: 3.5rem;
-                }
-            }
+        input {
+            font-size: 1.3rem;
+        }
+        textarea {
+            font-size: 1.3rem;
+            min-height: 3rem;
         }
     }
-    .asideContact {
+    .infoContact {
         flex: 1;
         max-width: 30rem;
-        background-color: #4e8098;
-        color: #e8dbc5;
+        background-color: variables.$bg1;
+        color: variables.$bg2;
         padding: 2rem;
+        border-radius: 2rem;
+        max-height: 17rem;
     }
     .contactPageSpeech {
-        background-color: #4e8098;
-        padding: 2rem;
+        background-color: variables.$bg1;
+        padding: 2.2rem;
+        border-radius: 2rem;
+        max-width: 68rem;
+        align-items: center;
+        justify-content: center;
         .speechContact {
-            font-size: 3rem;
-            color: #e8dbc5;
+            font-size: variables.$sizeL;
+            color: variables.$bg2;
             text-align: justify;
         }
     }

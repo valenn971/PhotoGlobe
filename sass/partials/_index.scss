@@ -1,3 +1,4 @@
+@use 'variables';
 * {
     padding: 0;
     margin: 0;
@@ -11,10 +12,15 @@ body {
     margin: 0;
     padding: 0;
 }
+@mixin dCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header {
     top: 0;
     display: flex;
-    background-color: #e8dbc5;
+    background-color: variables.$bg2;
     position: sticky;
         #nav {
             width: 100%;
@@ -26,14 +32,14 @@ body {
             padding: 0;
         }
         li {
-            margin-left: 2rem;
-            margin-right: 2rem;
+            margin-left: variables.$sizeS * 2;
+            margin-right: variables.$sizeS * 2;
             margin-top: 0.2rem;
             margin-bottom: 0.2rem;
         }
         .navbar-toggler {
-            color: #554640;
-            background-color: #4e8098;
+            color: variables.$tc;
+            background-color: variables.$bg1;
         }
         .logoPack {
             align-content: center;
@@ -50,7 +56,7 @@ body {
                 height: 5rem;
             }
             .brand {
-                    color: #554640;
+                    color: variables.$tc;
                     justify-self: center;
                     font-size: 3.5rem;
                 }
@@ -61,7 +67,7 @@ body {
             .navUl {
                 .navbar {
                     & a:hover {
-                        color: #4e8098;
+                        color: variables.$bg1;
                         transition: all .3s;
                         scale: 1.05;
                     }
@@ -69,51 +75,49 @@ body {
                 .navbarA {
                     text-decoration: none;
                     font-size: 2.5rem;
-                    color: #554640;
+                    color: variables.$tc;
                 }   
             }
         }   
 }
 .main {
     display: block;
-    background-color: #4e8098;
+    background-color: variables.$bg1;
     min-height: 100rem;
     .bodyParagraph1 {
         display: flex;
         text-align: justify;
-        padding: 2rem;
+        padding: variables.$sizeM * 2;
         .txtParagraph1 {
-            font-size: 3rem;
-            color: #e8dbc5;
-            margin-top: 3rem;
-            margin-bottom: 3rem;
+            font-size: variables.$sizeL;
+            color: variables.$bg2;
+            margin-top: variables.$sizeL;
+            margin-bottom: variables.$sizeL;
         }
     }
     #indexVideos {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include dCenter;
         padding: 0;
         .videosIndex {
             width: 35rem;
             height: 22rem;
-            padding: 3rem;
+            padding: variables.$sizeL;
         }
     }
     .bodyParagraph2 {
         display: flex;
         text-align: justify;
-        padding: 2rem;
+        padding: variables.$sizeS * 2;
         .txtParagraph2 {
-            font-size: 3rem;
-            color: #e8dbc5;
-            margin-top: 3rem;
-            margin-bottom: 3rem;
+            font-size: variables.$sizeL;
+            color: variables.$bg2;
+            margin-top: variables.$sizeL;
+            margin-bottom: variables.$sizeL;
         }
     }
 }
 #footer {
-    background-color: #e8dbc5;
+    background-color: variables.$bg2;
     display: flex;
     align-self: flex-end;
     .ulFooter {
@@ -128,7 +132,7 @@ body {
             font-size: 2rem;      
             .linkFooter {
                 text-decoration: none;
-                color: #554640;
+                color: variables.$tc;
             }
         }
     }
@@ -138,6 +142,10 @@ body {
         justify-self: flex-end;
         .iconsFooter {
             padding-top: 0.7rem;
+            .footLogo {
+                height: 4rem;
+                width: 4rem;
+            }
         }
     }
 }

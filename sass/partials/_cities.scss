@@ -1,5 +1,8 @@
+@use 'variables';
 .mainCities {
-    background-color: #4e8098;
+    display: block;
+    background-color: variables.$bg1;
+    min-height: 100rem;
     .linkCities {
         text-decoration: none;
         .citiesIMG {
@@ -7,14 +10,14 @@
             height: 13rem;
         }
         .linkCitiesBrand {
-            color: #e8dbc5;
-            font-size: 3rem;
+            color: variables.$bg2;
+            font-size: variables.$sizeL;
         }
     }
     .citiesParagraph {
         .txtParagraphCities {
             font-size: 4rem;
-            color: #e8dbc5;
+            color: variables.$bg2;
             text-align: center;
         }
     }

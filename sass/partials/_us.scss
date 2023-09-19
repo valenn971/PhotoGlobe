@@ -1,53 +1,58 @@
+@use 'variables';
+@mixin dCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main {
     .usPage {
         .usPageUs {
             text-align: justify;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .usTitle {
                 font-size: 4rem;
                 font-style: italic;
-                color: #e8dbc5;
+                color: variables.$bg2;
                 text-align: center;
             }
             .usSpan {
                 font-size: 2.2rem;
-                color: #fff;
+                color: variables.$white;
                 text-align: center;
             }
         }
         .usPageInicios {
             text-align: justify;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .usTitle {
                 font-size: 4rem;
                 font-style: italic;
-                color: #e8dbc5;
+                color: variables.$bg2;
                 text-align: center;
             }
             .usSpan {
                 font-size: 2.2rem;
-                color: #fff;
+                color: variables.$white;
                 text-align: center;
             } 
         }
         .usPageI {
             text-align: justify;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .usTitle {
                 font-size: 4rem;
                 font-style: italic;
-                color: #e8dbc5;
+                color: variables.$bg2;
                 text-align: center;
             }
             .usSpan {
                 font-size: 2.2rem;
-                color: #fff;
+                color: variables.$white;
                 text-align: center;
             }
         }
         .asideUs {
-            display: flex;
-            justify-content: center;
+            @include dCenter;
             .usMedia {
                 width: 30rem;
                 height: 18rem;

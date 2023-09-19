@@ -1,3 +1,9 @@
+@use 'variables';
+@mixin dCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main {
     .headFlag {
         width: 100%;
@@ -6,16 +12,16 @@
         background-size: contain;
         .BheadTitle {
             font-size: 10rem;
-            color: #ffffff;
+            color: variables.$white;
             text-align: center;
         }
     }
     .berlinContent {
         .berlinTheCity {
             text-align: center;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .BtheCityTitle {
-                color: #e8dbc5;
+                color: variables.$bg2;
                 font-size: 5rem;
             }
             .BtheCitySpan {
@@ -24,27 +30,25 @@
         }
         .berlinFood {
             text-align: center;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .BfoodTitle {
-                color: #e8dbc5;
+                color: variables.$bg2;
                 font-size: 5rem;
             }
             .BfoodSpan{
-                font-size: 2rem;
+                font-size: variables.$sizeM * 2;
             }
         }
         .berlinImages {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include dCenter;
             padding: 0;
             .BImages {
                 width: 34rem;
                 height: 19rem;
                 padding-left: 1.2rem;
                 padding-right: 1.2rem;
-                margin-bottom: 3rem;
-                margin-top: 3rem;
+                margin-bottom: variables.$sizeL;
+                margin-top: variables.$sizeL;
             }
         }
     }

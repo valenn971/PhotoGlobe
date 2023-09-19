@@ -1,3 +1,9 @@
+@use 'variables';
+@mixin dCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main {
     .headFlagN {
         background-image: url(https://www.countryflags.com/wp-content/uploads/norway-flag-png-large.png);
@@ -13,9 +19,9 @@
     .norgeContent {
         .norgeTheCity {
             text-align: center;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .NtheCityTitle {
-                color: #e8dbc5;
+                color: variables.$bg2;
                 font-size: 5rem;
             }
             .NtheCitySpan {
@@ -24,9 +30,9 @@
         }
         .norgeFood {
             text-align: center;
-            padding: 3rem;
+            padding: variables.$sizeL;
             .NfoodTitle {
-                color: #e8dbc5;
+                color: variables.$bg2;
                 font-size: 5rem;
             }
             .NfoodSpan {
@@ -34,17 +40,15 @@
             }
         }
         .norgeImages {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include dCenter;
             padding: 0;
             .NImages {
                 width: 34rem;
                 height: 19rem;
                 padding-left: 1.2rem;
                 padding-right: 1.2rem;
-                margin-bottom: 3rem;
-                margin-top: 3rem;
+                margin-bottom: variables.$sizeL;
+                margin-top: variables.$sizeL;
             }
         }
     }

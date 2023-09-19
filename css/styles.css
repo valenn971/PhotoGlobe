@@ -82,7 +82,7 @@ body {
 .main .bodyParagraph1 {
   display: flex;
   text-align: justify;
-  padding: 2rem;
+  padding: 3rem;
 }
 .main .bodyParagraph1 .txtParagraph1 {
   font-size: 3rem;
@@ -92,8 +92,8 @@ body {
 }
 .main #indexVideos {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 .main #indexVideos .videosIndex {
@@ -142,6 +142,10 @@ body {
 #footer .footIcons .iconsFooter {
   padding-top: 0.7rem;
 }
+#footer .footIcons .iconsFooter .footLogo {
+  height: 4rem;
+  width: 4rem;
+}
 
 @media (max-width: 952px) {
   #indexVideos {
@@ -150,56 +154,50 @@ body {
   }
 }
 .mainContact {
+  display: flex;
+  flex-direction: column;
   background-image: url(https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   background-size: cover;
+  min-height: 100rem;
+  justify-content: center;
+  align-items: center;
 }
-.mainContact .contactSection .titleContact {
-  font-size: 4rem;
+.mainContact form {
+  max-width: 68rem;
+  min-width: 35rem;
+  background-color: #4e8098;
+  border-radius: 3rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.mainContact form label {
+  font-size: 2.4rem;
   color: #ffffff;
 }
-.mainContact .contactSection form label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-size: 2rem;
-  color: #ffffff;
-  width: 10rem;
+.mainContact form input {
+  font-size: 1.3rem;
 }
-.mainContact .contactSection form input {
-  width: 30rem;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border: 0.1rem solid #ccc;
-  border-radius: 0.5rem;
+.mainContact form textarea {
+  font-size: 1.3rem;
+  min-height: 3rem;
 }
-.mainContact .contactSection form .txtandbutton {
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 1rem;
-}
-.mainContact .contactSection form .txtandbutton textarea {
-  width: 30rem;
-  border: 0.1rem solid #ccc;
-  border-radius: 0.5rem;
-}
-.mainContact .contactSection form .txtandbutton button {
-  background-color: #e8dbc5;
-  color: #554640;
-  padding: 1rem 2rem;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  height: 3.5rem;
-}
-.mainContact .asideContact {
+.mainContact .infoContact {
   flex: 1;
   max-width: 30rem;
   background-color: #4e8098;
   color: #e8dbc5;
   padding: 2rem;
+  border-radius: 2rem;
+  max-height: 17rem;
 }
 .mainContact .contactPageSpeech {
   background-color: #4e8098;
-  padding: 2rem;
+  padding: 2.2rem;
+  border-radius: 2rem;
+  max-width: 68rem;
+  align-items: center;
+  justify-content: center;
 }
 .mainContact .contactPageSpeech .speechContact {
   font-size: 3rem;
@@ -208,7 +206,9 @@ body {
 }
 
 .mainCities {
+  display: block;
   background-color: #4e8098;
+  min-height: 100rem;
 }
 .mainCities .linkCities {
   text-decoration: none;
@@ -256,7 +256,7 @@ body {
 }
 .main .usPage .usPageUs .usSpan {
   font-size: 2.2rem;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 .main .usPage .usPageInicios {
@@ -271,7 +271,7 @@ body {
 }
 .main .usPage .usPageInicios .usSpan {
   font-size: 2.2rem;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 .main .usPage .usPageI {
@@ -286,12 +286,13 @@ body {
 }
 .main .usPage .usPageI .usSpan {
   font-size: 2.2rem;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 .main .usPage .asideUs {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .main .usPage .asideUs .usMedia {
   width: 30rem;
@@ -341,12 +342,12 @@ body {
   font-size: 5rem;
 }
 .main .berlinContent .berlinFood .BfoodSpan {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .main .berlinContent .berlinImages {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 .main .berlinContent .berlinImages .BImages {
@@ -400,8 +401,8 @@ body {
 }
 .main .londonContent .londonImages {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 .main .londonContent .londonImages .LImages {
@@ -460,8 +461,8 @@ body {
 }
 .main .romeContent .romeImages {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 .main .romeContent .romeImages .RImages {
@@ -514,8 +515,8 @@ body {
 }
 .main .parisContent .parisImages {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 .main .parisContent .parisImages .PImages {
@@ -568,8 +569,8 @@ body {
 }
 .main .norgeContent .norgeImages {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 .main .norgeContent .norgeImages .NImages {
@@ -599,7 +600,7 @@ body {
 }
 .main .BlogArticle .BlogContent .blogIntro {
   font-size: 2rem;
-  color: #fff;
+  color: #ffffff;
 }
 .main .BlogArticle .BlogContent .blogEntranceTitle {
   font-size: 3.4rem;
@@ -608,12 +609,12 @@ body {
 }
 .main .BlogArticle .BlogContent .blogEntrance {
   font-size: 2rem;
-  color: #fff;
+  color: #ffffff;
 }
 .main .BlogArticle .blogImages {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 .main .BlogArticle .blogImages .londonBlogIMG {
@@ -650,7 +651,7 @@ body {
 }
 .main .blogArticle .blogContent .blogIntro {
   font-size: 2rem;
-  color: #fff;
+  color: #ffffff;
 }
 .main .blogArticle .blogContent .blogEntranceTitle {
   font-size: 3.4rem;
@@ -659,12 +660,12 @@ body {
 }
 .main .blogArticle .blogContent .blogEntrance {
   font-size: 2rem;
-  color: #fff;
+  color: #ffffff;
 }
 .main .blogArticle .blogImages {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .main .blogArticle .blogImages .parisBlogIMG {
   width: 35rem;

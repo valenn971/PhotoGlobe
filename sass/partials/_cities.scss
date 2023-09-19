@@ -3,11 +3,13 @@
     display: block;
     background-color: variables.$bg1;
     min-height: 100rem;
+    padding: 4rem;
     .linkCities {
         text-decoration: none;
         .citiesIMG {
             width: 20rem;
             height: 13rem;
+            border-radius: variables.$sizeL;
         }
         .linkCitiesBrand {
             color: variables.$bg2;

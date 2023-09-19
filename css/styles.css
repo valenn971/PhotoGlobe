@@ -100,6 +100,7 @@ body {
   width: 35rem;
   height: 22rem;
   padding: 3rem;
+  border-radius: 6rem;
 }
 .main .bodyParagraph2 {
   display: flex;
@@ -209,6 +210,7 @@ body {
   display: block;
   background-color: #4e8098;
   min-height: 100rem;
+  padding: 4rem;
 }
 .mainCities .linkCities {
   text-decoration: none;
@@ -216,6 +218,7 @@ body {
 .mainCities .linkCities .citiesIMG {
   width: 20rem;
   height: 13rem;
+  border-radius: 3rem;
 }
 .mainCities .linkCities .linkCitiesBrand {
   color: #e8dbc5;
@@ -298,11 +301,13 @@ body {
   width: 30rem;
   height: 18rem;
   padding: 1rem;
+  border-radius: 6rem;
 }
 .main .usPage .asideUs .usMediaF {
   width: 30rem;
   height: 18rem;
   padding: 1rem;
+  border-radius: 6rem;
 }
 
 @media (max-width: 952px) {
@@ -357,6 +362,7 @@ body {
   padding-right: 1.2rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  border-radius: 6rem;
 }
 
 @media (max-width: 952px) {
@@ -412,6 +418,7 @@ body {
   padding-right: 1.2rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  border-radius: 6rem;
 }
 
 @media (max-width: 952px) {
@@ -472,6 +479,7 @@ body {
   padding-right: 1.2rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  border-radius: 6rem;
 }
 
 @media (max-width: 952px) {
@@ -526,6 +534,7 @@ body {
   padding-right: 1.2rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  border-radius: 6rem;
 }
 
 @media (max-width: 952px) {
@@ -580,6 +589,7 @@ body {
   padding-right: 1.2rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  border-radius: 6rem;
 }
 
 @media (max-width: 952px) {
@@ -621,6 +631,7 @@ body {
   width: 30rem;
   height: 18rem;
   padding: 1rem;
+  border-radius: 6rem;
 }
 
 @media (max-width: 952px) {
@@ -637,6 +648,7 @@ body {
   width: 30rem;
   height: 18rem;
   padding: 1rem;
+  border-radius: 6rem;
 }
 
 .main .blogArticle .blogContent {
@@ -671,6 +683,7 @@ body {
   width: 35rem;
   height: 18rem;
   padding: 1rem;
+  border-radius: 6rem;
 }
 
 @media (max-width: 952px) {

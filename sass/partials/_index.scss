@@ -81,13 +81,15 @@ body {
         }   
 }
 .main {
-    display: block;
+    @include dCenter;
     background-color: variables.$bg1;
     min-height: 100rem;
+    flex-direction: column;
     .bodyParagraph1 {
         display: flex;
         text-align: justify;
         padding: variables.$sizeM * 2;
+        max-width: 80rem;
         .txtParagraph1 {
             font-size: variables.$sizeL;
             color: variables.$bg2;
@@ -103,12 +105,15 @@ body {
             height: 22rem;
             padding: variables.$sizeL;
             border-radius: variables.$sizeL * 2;
+            margin-left: 1rem;
+            margin-right: 1rem;
         }
     }
     .bodyParagraph2 {
         display: flex;
         text-align: justify;
         padding: variables.$sizeS * 2;
+        max-width: 80rem;
         .txtParagraph2 {
             font-size: variables.$sizeL;
             color: variables.$bg2;
